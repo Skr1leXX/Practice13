@@ -4,32 +4,7 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-
-    <EditText
-        android:id="@+id/exchangeRateEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Введите курс обмена" />
-
-    <EditText
-        android:id="@+id/exchangeAmountEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Введите сумму для обмена" />
-
-    <Button
-        android:id="@+id/convertButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Конвертировать" />
-
-    <TextView
-        android:id="@+id/resultTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="18sp" />
-
-
+    <!-- Поля для вычисления треугольника -->
     <EditText
         android:id="@+id/sideAEditText"
         android:layout_width="match_parent"
